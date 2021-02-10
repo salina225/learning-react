@@ -17,7 +17,7 @@ export const Greeting = ({
             {name}'s favorite number {favoriteNumber}
         </h3>
         <h3>
-            { name }'s favorite number plus 10 is { favoriteNumber + 10 }
+            {name}'s favorite number plus 10 is { favoriteNumber + 10 }
         </h3>
 
         <h3>
