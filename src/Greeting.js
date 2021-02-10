@@ -15,6 +15,15 @@ export const Greeting = (props) => {
         <h3>
         { props.name }'s favorite number plus 10 is { props.favoriteNumber + 10 }
         </h3>
+
+        <h3>
+        {props.name}'s favorite colors are:
+        </h3>
+        <ul>
+            {props.favoriteColors && props.favoriteColors.map(x => <li>{x}</li>)}
+
+        </ul>
+
       </>
     );
 };
